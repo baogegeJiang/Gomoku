@@ -4,7 +4,7 @@ for i=1:map.size
     for j=1:map.size
         plot(i,j,'.k');hold on
         if map.array(i,j)~=0
-          plot(i,j,mark{map.array(i,j)},'MarkerSize',20,'MarkerFaceColor',c(map.array(i,j),:));
+          plot(i,j,mark{map.array(i,j)},'MarkerSize',16,'MarkerFaceColor',c(map.array(i,j),:));
           hold on
         end
     end
